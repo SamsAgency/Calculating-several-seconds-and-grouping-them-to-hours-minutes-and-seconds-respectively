@@ -1,0 +1,6 @@
+echo "# Calculating-several-seconds-and-grouping-them-to-hours-minutes-and-seconds-respectively" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/SamsAgency/Calculating-several-seconds-and-grouping-them-to-hours-minutes-and-seconds-respectively.git
+git push -u origin master
