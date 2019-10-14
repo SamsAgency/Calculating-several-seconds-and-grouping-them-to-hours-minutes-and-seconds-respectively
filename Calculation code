@@ -1,6 +1,14 @@
-echo "# Calculating-several-seconds-and-grouping-them-to-hours-minutes-and-seconds-respectively" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/SamsAgency/Calculating-several-seconds-and-grouping-them-to-hours-minutes-and-seconds-respectively.git
-git push -u origin master
+#converting a given seconds to hrs mins & sec respectively
+name = input("Enter your name: ")
+amount = int(input("Enter the amount of seconds you want to convert, {}: " .format(name)))
+
+hours = amount // 3600
+rem_min = amount % 3600
+
+minutes = rem_min // 60
+rem_sec = rem_min % 60
+
+seconds = rem_sec
+
+print(hours, minutes, seconds)
+print("Am very glad you asked")
